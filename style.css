@@ -1,0 +1,445 @@
+body {
+  padding-top: 50px;
+    font-family: 'Work Sans', sans-serif;
+   }
+   
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Crimson Text', serif;
+   }
+
+nav{
+ text-align: center;
+}
+a{
+  font-size: 20px;
+  color:black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+li{
+  display: inline-block;
+  list-style:none;
+}
+
+
+ul li a{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic",  CenturyGothic,  "AppleGothic",   sans-serif;
+  letter-spacing:4px;
+  display: inline-block;
+  padding:15px;
+  margin:0px;
+  float:left;
+
+}
+
+a:hover{
+  color:white;
+}
+
+
+
+.Home{ border-bottom:2px solid #C74029; }
+.Home:hover{ background-color:#C74029; box-shadow: 2px 2px 1px  #111; }
+
+.About{ border-bottom:2px solid #B0A390; }
+.About:hover{ background-color:#B0A390; box-shadow: 2px 2px 1px  #111;}
+
+.btn {
+  background-color: white;
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 7px 22px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #8F918E;
+  color: white;
+  font-weight: bold;
+}
+
+.Portfolio{border-bottom:2px solid #40755E;}
+.Portfolio:hover{ background-color:#40755E; box-shadow: 2px 2px 1px  #111;}
+
+.LLB{border-bottom:2px solid #128085;}
+.LLB:hover{ background-color:#128085; box-shadow: 2px 2px 1px  #111;}
+
+.Contact{border-bottom:2px solid #F0AD44;}
+.Contact:hover{ background-color:#F0AD44; box-shadow: 2px 2px 1px  #111;}
+
+
+.banner {
+    background: white;
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size: cover;
+height: 80%; 
+}
+
+header .container {
+  padding-top: 100px;
+  padding-bottom:200px;
+  text-shadow:  2px 2px 0px rgba(150, 150, 150, 1);  
+}
+
+
+header .btn {
+  border-color: #1F6EA9;
+  background-color: white;
+  text-shadow: none;
+}
+
+.intro-text .naslov {
+  display: block;
+  font-family: 'Crimson Text', serif;
+  font-size: 70px; 
+  color: #4b5050;
+}
+
+h2 {
+  font-family: 'Crimson Text', serif;
+  font-size: 50px; 
+  color:rgb(141, 137, 137);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+
+.ikonica {
+  font-size: 50px;
+  padding: 20px
+
+}
+.intro-text .tekst {
+color: rgb(112, 108, 108);
+  text-shadow:  1px 1px 15px rgba(0, 0, 0, 1);
+font-weight: bold;
+font-size: large;
+    padding: 30px 0;
+}
+
+
+
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0 0 30px 0; /* samo bottom ima padding */
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+     border-color: rgb(141, 137, 137);
+}
+
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+  color: #656769;
+    background-color: #fff;
+}
+
+footer, #portfolio {
+  background-color: #fff;
+  padding: 30px 0;
+}
+
+#portfolio hr.star-primary:after {
+  background-color: #f5f8f8;
+}
+
+
+
+  /* ------------------------------------------------------------------ */
+/* i. Footer
+/* ------------------------------------------------------------------ */
+
+footer {
+  padding-top: 48px;
+  margin-bottom: 48px;
+  color: #303030;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+}
+
+footer a, footer a:visited { color: #525252; }
+footer a:hover, footer a:focus { color: #0F9095; }
+
+/* copyright */
+footer .copyright {
+   margin: 0;
+   padding: 0;
+}
+footer .copyright li {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   line-height: 24px;
+}
+.ie footer .copyright li {
+  display: inline;
+}
+footer .copyright li:before {
+   content: "\2022";
+   padding-left: 10px;
+   padding-right: 10px;
+   color: #095153;
+}
+footer .copyright  li:first-child:before {
+   display: none;
+}
+
+/* social links */
+footer .social-links {
+  margin: 18px 0 30px 0;
+  padding: 0;
+  font-size: 30px;
+}
+footer .social-links li {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   margin-left: 42px;
+   color: #F06000;
+}
+
+footer .social-links li:first-child { margin-left: 0; }
+
+/* Go To Top Button */
+.top-link {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+   
+ cursor: pointer;
+ align-items: center;
+ justify-content: center;
+ margin: 0 3em 3em 0;
+ border-radius: 50%;
+ padding: .25em;
+ width: 80px;
+ height: 80px;
+ background-color: #F8F8F8;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+ 
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+svg {
+  fill: #000;
+  width: 45px;
+  height: 25px;
+ }
+  
+ #hover {
+  background-color: #E8E8E8;
+
+ }
+  
+     svg {
+      fill:  #9c8a8a
+     }
+
+     /* Text meant only for screen readers.*/
+.screen-reader-text {
+    position: absolute;
+    clip-path: inset(50%);
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    word-wrap: normal !important;
+    clip: rect(1px, 1px, 1px, 1px);
+
+}
+ 
+    focus {
+        display: block;
+        top: 5px;
+        left: 5px;
+        z-index: 100000; /* Above WP toolbar*/
+        clip-path: none;
+        background-color: #eee;
+        padding: 15px 23px 14px;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        line-height: normal;
+        color: #444;
+        font-size: 1em;
+        clip: auto !important;
+    }
+
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+
+.form_settings
+{ padding: 0 0 4px 0;}
+
+.form_settings
+{ float: left; 
+  width: 500px; 
+  text-align: left;}
+
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}
+
+
+
+/*.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 200px; 
+  text-align: left;}
+  
+.form_settings input, .form_settings textarea
+{ padding: 5px; 
+  width: 300px; 
+  font: 100% arial; 
+  border: 1px solid #525250; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.form_settings .submit { 
+  font: 100% arial; 
+  border: 0; 
+  width: 99px; 
+  margin: 70pxpx 0 0 0; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #3B3B3B; 
+  color: #FFF;}
+
+.form_settings textarea, .form_settings select
+{ font: 100% arial; 
+  width: 300px;}
+
+.form_settings select
+{ width: 30px;}
+
+.form_settings .checkbox
+{ margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;
+}
+
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700,200);
+	
+	*{margin:0;padding:0;font-family: 'Raleway',sans-serif;}
+	
+	/*body{
+		background: url(https://www.olliehusbanddesign.co.uk/allcssthumbnails/slice.jpg) repeat;*/
+	}
+	
+	.skills{
+		width:100px;
+		margin:40px auto;
+		padding:20px;
+		background:#999999;
+		box-shadow: 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow: 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
+		-webkit-box-shadow: 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
+	}
+	
+	.skills h2{
+		text-align:center;
+		width:100%;
+		margin: 0 0 20px 0;
+	}	
+	
+	.skills .chart{
+		position:relative;
+		display: block;
+		padding: 10px;
+		width: 400px;
+		margin: 0 0 3px 0;
+		text-align: center;
+		position: relative;
+		border: 4px double rgba(0,0,0,0.1);
+		background:rgba(255,255,255,0.5);
+	}
+		
+	.skills .chart:after{
+		content: "";
+		position:absolute;
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+		box-shadow: inset 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow: inset 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
+		-webkit-box-shadow: inset 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
+	}
+	
+	.skills .chart span{
+		position: absolute;
+		left: 0;
+		top:0;
+		background: url("http://www.kriesi.at/themes/flashlight/wp-content/themes/flashlight/images/patterns/light-diagonal-wide-left-to-right.png") repeat rgb(59, 77, 5);
+		z-index:0;
+		height:100%;
+		width:0px;
+		-webkit-transition: all ease-in-out 1s;
+		-moz-transition: all ease-in-out 1s;
+		-ms-transition: all ease-in-out 1s;
+		-o-transition: all ease-in-out 1s;
+		transition: all ease-in-out 1s;
+	}
+
+	.skills .chart p{
+		position: relative;
+		z-index: 100;
+		margin: 0;
+		color:#ffffff;
+		font-size: 0.9em;
+		font-weight: bolder;
+		line-height:1.2em;
+	}
+
+
+
+  
+
